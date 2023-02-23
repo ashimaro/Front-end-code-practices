@@ -4,20 +4,23 @@
 <head>
 
     <title>My ToDo List</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    
     <h1>
-        My To-Do list
+        My To-Do List
     </h1>
-    <p><label for="new-todo">Enter your task here:</label> <br>
-        <input type="text" id="new-todo" placeholder="Ex: Update github repo">
+    <div class="container">
+    <p><label for="new-todo">Enter your task(s) of the day</label> <br>
+        <input type="text" id="new-todo" placeholder="Ex: Add commit in GitHub">
     </p>
 
     <button onclick="addTodo()">Add</button>
 
     <ul id="todo-list"></ul>
-
+    </div>
     <script src="index.js"></script>
 </body>
 

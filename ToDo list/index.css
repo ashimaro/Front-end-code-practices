@@ -1,0 +1,70 @@
+body {
+    font-family: cursive;
+    background: rgb(243, 185, 243);
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    /* below 2 codes will center button on the page */
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover {
+    background-color: rgb(241, 137, 154);
+}
+
+p{
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+li .delete-button {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    padding: 5px 10px;
+}
+
+
+label,
+input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    border-bottom: 2px solid #ccc;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    /* above code will center the container on the page */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(250, 0, 0, 0.2);
+}
