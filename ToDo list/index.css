@@ -28,6 +28,7 @@ p{
 }
 
 li {
+    counter-increment: my-counter; /* add a counter for each li element */
     list-style: none;
     font-size: 18px;
     margin-bottom: 10px;
@@ -37,13 +38,21 @@ li {
     position: relative;
 }
 
+li:before {
+    content: counter(my-counter) "."; /* display the counter value */
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
 li .delete-button {
     position: absolute;
     top: 7px;
     right: 5px;
     padding: 5px 10px;
 }
-
 
 label,
 input[type="text"] {
@@ -54,6 +63,8 @@ input[type="text"] {
     border: none;
     padding: 10px;
     font-size: 18px;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 input[type="text"] {
