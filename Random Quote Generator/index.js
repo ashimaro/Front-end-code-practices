@@ -3,8 +3,9 @@
 const quotes = [
     { quote: "If you feel alone, just remember your entire bloodline is watching you!" },
     { quote: "I am not my thoughts; I have thoughts" },
-    { quote: "Small steps everyday makes your closer to your goals" }
-    { quote: "Explain the pain still hurt, just top talking. Share the problems won't solve" }
+    { quote: "Small steps everyday makes your closer to your goals" },
+    { quote: "Explain the pain still hurt, just top talking. Share the problems won't solve" },
+    { quote: "while (!(success =try()));" }
 ];
 
 //Function to generate a random quote
