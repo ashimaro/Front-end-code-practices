@@ -5,7 +5,8 @@ const quotes = [
     { quote: "I am not my thoughts; I have thoughts" },
     { quote: "Small steps everyday makes your closer to your goals" },
     { quote: "Explain the pain still hurt, just top talking. Share the problems won't solve" },
-    { quote: "while (!(success =try()));" }
+    { quote: "while (!(success =try()));" },
+    { quote: "I use obstacles to motivate me to learn and grow"}
 ];
 
 //Function to generate a random quote
