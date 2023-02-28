@@ -1,0 +1,70 @@
+/* Calendar container styles */
+.calendar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Calendar header styles */
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 10px;
+}
+
+.calendar-header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.calendar-header button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Calendar table styles */
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar-table th,
+.calendar-table td {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.calendar-table th {
+    background-color: #eee;
+}
+
+.calendar-table td.empty-cell {
+    background-color: #f0f0f0;
+}
+
+.calendar-table td.calendar-date:hover {
+    background-color: #eee;
+}
+
+.calendar-table td.calendar-date.selected-date {
+    background-color: #4d4d4d;
+    color: #fff;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .calendar-container {
+        flex-direction: column;
+    }
+}
+
+p{
+    text-align: center;
+}
