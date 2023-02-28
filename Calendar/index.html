@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Calendar</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<div class="calendar-container">
+		<div class="calendar">
+			<div class="calendar-header">
+				<button onclick="previousMonth(1)">&lt;</button>
+				<h2 id="month-year-1"></h2>
+				<button onclick="nextMonth(1)">&gt;</button>
+			</div>
+			<table class="calendar-table" id="calendar-1">
+				<thead>
+					<tr>
+						<th>Sun</th>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thu</th>
+						<th>Fri</th>
+						<th>Sat</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<p id="chosen-date"></p>
+	<script src="index.js"></script>
+</body>
+
+</html>
