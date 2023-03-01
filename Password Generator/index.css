@@ -1,0 +1,54 @@
+/* body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* h1 styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* button styles */
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* paragraph styles */
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* media query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    /* button styles */
+    button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    /* paragraph styles */
+    p {
+      font-size: 16px;
+    }
+  }
+  
