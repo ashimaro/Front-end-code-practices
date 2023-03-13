@@ -2,31 +2,14 @@
 <html>
     <head>
         <title>Buttons</title>
-
+        <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <h1>Increment and Decrement Buttons</h1>
 <button onclick= decrementValue("quantity")>-</button>
-<input type="number" id="quantity" value="0">
+<input type="number" id="quantity" value="0" disabled>
 <button onclick=incrementValue("quantity")>+</button>
 
-
-
-<script >
-    
-  function incrementValue(id) {
-  var inputElement = document.getElementById(id);
-  var currentValue = parseInt(inputElement.value);
-  inputElement.value = currentValue + 1;
-}
-
-function decrementValue(id) {
-  var inputElement2 = document.getElementById(id);
-  var currentValue2 = parseInt(inputElement2.value);
-  if (currentValue2 > 0) { // Check if the current value is greater than zero
-    inputElement2.value = currentValue2 - 1;
-  }
-}
-</script>
+<script src="indexjs.js"></script>
 </body>
 </html>
